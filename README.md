@@ -33,7 +33,7 @@ Before you begin, ensure you have Node.js and MongoDB installed on your local ma
 
      ```plaintext
      MONGODB_URI=mongodb://localhost:27017/mydatabase
-     PORT=3000
+     PORT=3001
      ```
 
      Replace `mongodb://localhost:27017/mydatabase` with your MongoDB connection string.
@@ -46,7 +46,7 @@ To start the server, run:
 npm start
 ```
 
-The server will start listening on the port specified in the `.env` file (default is port 3000).
+The server will start listening on the port specified in the `.env` file (default is port 3001).
 
 ## Development
 
